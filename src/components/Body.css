@@ -1,0 +1,13 @@
+.app-body {
+  padding: 1rem 3.8rem;
+}
+.search {
+  margin-bottom: 2rem;
+}
+.res-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
