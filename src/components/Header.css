@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 2rem;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+.logo {
+  font-size: large;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin-left: 30rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: orange;
+}
+.cart-container {
+  margin-right: 5rem;
+}
+.login-btn {
+  padding: 10px 15px;
+  background-color: orange;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.login-btn:hover {
+  background-color: darkorange;
+}
