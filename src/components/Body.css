@@ -1,9 +1,67 @@
 .app-body {
   padding: 1rem 3.8rem;
 }
-.search {
+.btn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+btn:hover {
+  background-color: #ff4b4b; /* slightly darker on hover */
+}
+.app-body-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.search-bar {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  width: 250px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2);
+}
+
+.search-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #ff4b4b;
+}
+
 .res-container {
   display: flex;
   justify-content: space-between;

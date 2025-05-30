@@ -1573,11 +1573,98 @@ const resList = [
       type: "WEBLINK",
     },
   },
+  {
+    info: {
+      id: "364444",
+      name: "OvenStory",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/22/37af1802-204d-498f-9bbb-54fafb8285f2_364444.JPG",
+      locality: "Garia Road",
+      areaName: "JadavPur",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 4.4,
+      parentId: "721",
+      avgRatingString: "4.5",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 37,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "35-40 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2025-05-30 04:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Pizza.png",
+            description: "Delivery!",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Pizza.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹79",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-3590ba52-ccda-490d-9611-dc5cb742dbda",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kolkata/pizza-hut-garia-road-ramkrishna-nagar-rest364444",
+      type: "WEBLINK",
+    },
+  },
 ];
 const Body = () => {
   return (
     <div className="app-body">
-      <div className="search">Search</div>
+      <div className="app-body-upper">
+        <button className="btn">Top Restaurants</button>
+        <div className="search-container">
+          <input type="text" className="search-bar" />
+          <button className="search-btn">🔍</button>
+        </div>
+      </div>
       <div className="res-container">
         {resList.map((restaurant) => (
           <ResCard key={restaurant.info.id} resData={restaurant} />
