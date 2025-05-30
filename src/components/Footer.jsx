@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Logo Column */}
         <div className="footer-col logo-col">
           <h2 className="logo-text">🍽️ YumRush</h2>
-          <p>&copy; {new Date().getFullYear()} FoodieHub Ltd.</p>
+          <p>&copy; {new Date().getFullYear()} YumRush Ltd.</p>
         </div>
 
         {/* Company */}
